@@ -1,7 +1,7 @@
 const cron = require("cron");
 const https = require("https");
 
-const backendUrl = "https://ecommerce-web-app-backend.onrender.com/";
+const backendUrl = "https://sample-ecommerce-3kq2.onrender.com/";
 
 const job = new cron.CronJob("*/14 * * * *", function () {
   console.log("Restarting Server");
